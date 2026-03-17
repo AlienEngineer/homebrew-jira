@@ -1,9 +1,9 @@
 class Jira < Formula
   desc "Command line application for interacting with JIRA"
   homepage "https://github.com/alienengineer/jira"
-  url "https://github.com/alienengineer/jira/releases/download/2.4.14/jira-macos.tar.gz"
-  sha256 "dce7d68032c4dd25fe44a2b06f2ebc3b3a52e1d7563ed7bf886e8bbed9f6a074"
-  version "2.4.14"
+  url "https://github.com/alienengineer/jira/releases/download/2.4.15/jira-macos.tar.gz"
+  sha256 "fd5ec6bef8969622db198f9fffd474740a1eaf8a556815549ce07ee471691d07"
+  version "2.4.15"
 
   def install
     bin.install "jira"
